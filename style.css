@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+h1 {
+  color: #931A25;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 22px;
+  line-height: 1.6;
+}
+
+h2 {
+  color: #931A25;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+body {
+  background-color:white;
+  font-family: 'Quicksand', sans-serif;
+  color: #E97171;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+a {
+  color:#FFCB8E;
+  text-decoration: none;
+}
+
+a:hover {
+  color:#f8a444;
+  text-decoration: underline;
+}
+
+.container{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.card {
+  background: #F6F6F6;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  margin: 20px;
+}
+
+.img-circle {
+  border-radius: 50%;
+  width: 160px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.btn_red {
+  background-color: #B83B5E;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 6px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.btn_red:hover {
+  background-color: #821752;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 6px;
+  font-family: 'Quicksand', sans-serif;
+}
